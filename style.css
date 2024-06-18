@@ -1,4 +1,5 @@
 body {
+margin: 0 0;
 font-family: 'inter';
 background-color:#E9E9E9 ;
 }
@@ -9,9 +10,10 @@ img {
     display: block;
 }
 
-header, main, footer {
+main, footer {
     max-width: 1200px;
     margin: auto;
+    padding: 20px;
     } 
 
 header a {
@@ -24,6 +26,7 @@ header a {
         font-family: 'Bebas Neue';
         font-size: 200px;
         margin: 0px;
+        
         }
 
     header ul {
@@ -35,13 +38,15 @@ header a {
         header nav ul {
             text-decoration: none;
             list-style-type: none;
+            margin: 0;
+            padding: 0;
             }
 
             header {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-               
+               padding: 20px;
             }
 
             header a:hover {
@@ -49,11 +54,20 @@ header a {
                 text-decoration: underline;
             }
 
-            main p {
+            section.hero {
                 background-color: #EF7215;
                 padding-top: 20px;
                 padding-left: 20px;
+                padding-right: 20px;
                 padding-bottom: 100px;
+            }
+
+section.hero p {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+            section.hero p {
                 font-family: 'inter';
                 font-size: 65px;
                 }
@@ -61,8 +75,8 @@ header a {
                 section {
                     margin-top: 100px;
                     margin-bottom: 20px;
-    
                    }
+
                 section.title a {
                 font-family: 'inter';
                 font-weight: normal;
@@ -137,7 +151,7 @@ header a {
             }
 
             
-            div.card  {
+           main div.card  {
                 display: grid;
                 grid-template-columns: repeat(4, minmax(200px, 1fr));
                 gap: 20px 20px;
@@ -152,7 +166,7 @@ header a {
                 section.title3  a{
                 font-family: 'inter';
                 font-weight: normal;
-                font-size: 250px;
+                font-size: 120px;
                 color: black;
                 text-decoration: none;
                 list-style-type: none;
@@ -197,7 +211,7 @@ header a {
                         section.title5  a{
                         font-family: 'inter';
                         font-weight: normal;
-                        font-size: 250px;
+                        font-size: 120px;
                         color: black;
                         text-decoration: none;
                         list-style-type: none;
