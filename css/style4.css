@@ -8,7 +8,7 @@ body {
         height: auto;
     }
     
-     main, footer {
+    main, footer {
         max-width: 1200px;
         margin: auto;
         } 
@@ -66,40 +66,47 @@ body {
                 }
 
                 .arrow a{
-                    font-size: 80px;
+                    font-size: 60px;
                     list-style-type: none;
                     text-decoration: none;
                     color: black;
                     margin: 0;
-                    padding: 0;
+                    padding: 20px;
+                }
+
+                .arrow a:hover {
+                    text-decoration: underline;
                 }
                 
-                
+                .hero{
+                background-color: rgba(206, 100, 164);
+                background-size: 100%;
+                padding-bottom: 40px;
+            }
                  .hero h1 {
                         font-family: 'inter';
-                        font-weight: normal;
-                        font-size: 80px;
+                        font-weight: bold;
+                        text-align: center;
+                        font-size: 180px;
                         color: black;
                         text-decoration: none;
                         list-style-type: none;
                         margin: 0;
                         padding: 0;
                         }
-                        .hero p {
+                        .hero2 p {
                             font-family: 'inter';
                             font-weight: 300;
                             font-size: 50px;
                             color: black;
-                            margin: 0;
+                            margin-top: 40px;
                             padding: 0;
                             width: 60%;
                             }
-                        .grid .item .text {
-                            padding-left: 60px;
-                        }
+                       
                             .grid .item{
                                 display: flex;
-                                margin-bottom: 20px;
+                                margin-bottom: 80px;
                                     
                                    }
                             
@@ -121,7 +128,7 @@ body {
                             .backpack p {
                                 font-size: 30px;
                                 font-weight: 300;
-                                width: 60%;
+                                
                                 
                             }
                            
@@ -135,8 +142,8 @@ body {
                            }
 
                            .plus  {
-                            position: absolute;
-                            right: 0%;
+                            position: relative;
+                            
                            }
 
                           

@@ -8,7 +8,7 @@ body {
         height: auto;
     }
     
-    main, footer {
+     main, footer {
         max-width: 1200px;
         margin: auto;
         } 
@@ -61,45 +61,45 @@ body {
                 }
 
                 header a:hover {
-                    color: black;
+                    color: white;
                     text-decoration: underline;
                 }
 
                 .arrow a{
-                    font-size: 80px;
+                    font-size: 60px;
                     list-style-type: none;
                     text-decoration: none;
                     color: black;
                     margin: 0;
-                    padding: 20px;
+                    padding: 0;
+                }
+
+                .arrow a:hover {
+                    text-decoration: underline;
                 }
                 
-                .hero{
-                background-color: rgba(206, 100, 164);
-                background-size: 100%;
-                padding-bottom: 40px;
-            }
                  .hero h1 {
                         font-family: 'inter';
-                        font-weight: bold;
-                        text-align: center;
-                        font-size: 200px;
+                        font-weight: normal;
+                        font-size: 80px;
                         color: black;
                         text-decoration: none;
                         list-style-type: none;
                         margin: 0;
                         padding: 0;
                         }
-                        .hero2 p {
+                        .hero p {
                             font-family: 'inter';
                             font-weight: 300;
                             font-size: 50px;
                             color: black;
-                            margin-top: 40px;
+                            margin: 0;
                             padding: 0;
                             width: 60%;
                             }
-                       
+                        
+                            
+
                             .grid .item{
                                 display: flex;
                                 margin-bottom: 80px;
@@ -107,9 +107,9 @@ body {
                                    }
                             
                         .grid .item img {
-                         width: 300px;
-                         height: 300px;
-                        object-fit: cover;
+                            object-fit: cover;
+                            width: 200px;
+                            height: 200px;
                          }  
                             .backpack h2, .backpack p {
                                 margin: 0;
@@ -142,8 +142,6 @@ body {
                             right: 0%;
                            }
 
-                          
-
 /* MODALE */
 .modal {
     display: none;
@@ -154,7 +152,7 @@ body {
     width: 600px;
     height: 800px;
     overflow: auto;
-    background-color: rgba(121, 123, 103);
+    background-color: rgba(189, 222, 204);
   }
   
   .modal:target {
@@ -198,10 +196,10 @@ body {
     color: #ccc;
   }
 
+
   hr.line {
     border: 1px solid black;
   }
-
                 
                 footer {
                     padding-top: 40px;

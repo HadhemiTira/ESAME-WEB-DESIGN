@@ -61,17 +61,21 @@ body {
                 }
 
                 header a:hover {
-                    color: black;
+                    color: white;
                     text-decoration: underline;
                 }
 
                 .arrow a{
-                    font-size: 80px;
+                    font-size: 60px;
                     list-style-type: none;
                     text-decoration: none;
                     color: black;
                     margin: 0;
                     padding: 0;
+                }
+
+                .arrow a:hover {
+                    text-decoration: underline;
                 }
                 
                 
@@ -94,19 +98,20 @@ body {
                             padding: 0;
                             width: 60%;
                             }
+
                         .grid .item .text {
                             padding-left: 60px;
                         }
                             .grid .item{
                                 display: flex;
-                                margin-bottom: 80px;
+                                margin-bottom: 20px;
                                     
                                    }
                             
                         .grid .item img {
-                            object-fit: cover;
-                            width: 200px;
-                            height: 200px;
+                         width: 300px;
+                         height: 300px;
+                        object-fit: cover;
                          }  
                             .backpack h2, .backpack p {
                                 margin: 0;
@@ -120,8 +125,7 @@ body {
                             }
                             .backpack p {
                                 font-size: 30px;
-                                font-weight: 300;
-                                width: 60%;
+                                font-weight: 300; 
                                 
                             }
                            
@@ -129,31 +133,35 @@ body {
                             
                            text-decoration: none;
                            color: black;
-                           font-size: 40px;
+                           font-size: 50px;
                            font-weight: 200;
                            
                            }
-                          
-                           .plus  {
-                            position: absolute;
-                            right: 0%;
-                           }
-                          
 
+                          .plus a {
+                            position: relative;
+                            
+                           }
+
+                          
 
 /* MODALE */
 .modal {
     display: none;
+    justify-content: center;
     position: fixed;
     z-index: 9999;
-    left: 0;
     top: 0;
+    left: 0;
     width: 600px;
     height: 800px;
     overflow: auto;
-    background-color: rgba(189, 222, 204);
+    background-color: rgba(121, 123, 103);
   }
-  
+
+ 
+
+
   .modal:target {
     display: block;
   }
@@ -181,7 +189,7 @@ body {
   }
   
   .close {
-    color: #fff;
+    color: black;
     position: absolute;
     top: 20px;
     right: 30px;
@@ -197,10 +205,10 @@ body {
 
   hr.line {
     border: 1px solid black;
+    margin-bottom: 20px;
   }
 
                 
-
                 footer {
                     padding-top: 40px;
                     }

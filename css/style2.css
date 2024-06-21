@@ -66,12 +66,16 @@ body {
                 }
 
                 .arrow a{
-                    font-size: 80px;
+                    font-size: 60px;
                     list-style-type: none;
                     text-decoration: none;
                     color: black;
                     margin: 0;
                     padding: 0;
+                }
+
+                .arrow a:hover {
+                    text-decoration: underline;
                 }
                 
                 
@@ -94,19 +98,19 @@ body {
                             padding: 0;
                             width: 60%;
                             }
-                        
-                            
-
+                        .grid .item .text {
+                            padding-left: 60px;
+                        }
                             .grid .item{
                                 display: flex;
-                                margin-bottom: 80px;
+                                margin-bottom: 60px;
                                     
                                    }
                             
                         .grid .item img {
                             object-fit: cover;
-                            width: 200px;
-                            height: 200px;
+                            width: 150px;
+                            height: 150px;
                          }  
                             .backpack h2, .backpack p {
                                 margin: 0;
@@ -133,11 +137,13 @@ body {
                            font-weight: 200;
                            
                            }
-
+                          
                            .plus  {
-                            position: absolute;
-                            right: 0%;
+                            position: relative;
+                            
                            }
+                          
+
 
 /* MODALE */
 .modal {
@@ -193,11 +199,13 @@ body {
     color: #ccc;
   }
 
-
   hr.line {
     border: 1px solid black;
+    margin-bottom: 20px;
   }
+
                 
+
                 footer {
                     padding-top: 40px;
                     }
