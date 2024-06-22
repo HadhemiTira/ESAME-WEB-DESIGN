@@ -10,6 +10,10 @@ body {
         display: block;
     }
 
+    img {
+        filter: saturate(50%);
+      }
+
     hr.line {
         border: 1px solid black;
       }
