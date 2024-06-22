@@ -59,8 +59,8 @@ body {
         }
 
         section.hero {
-            background:rgba(239,114,21);
-            padding-bottom: 80px;
+            background:rgba(209,211,115);
+            padding-bottom: 100px;
         }
 
         section.hero p {
@@ -130,6 +130,7 @@ body {
             color: black;
             text-decoration: none;
             list-style-type: none;
+
             }
 
         section.title a:hover {
@@ -174,15 +175,27 @@ body {
 
         
         .color2 {
-            background-color: rgb(254, 198, 116);
-            padding: 60px;
+            background-color: rgb(163, 134, 193);
+            padding: 80px;
 
         } 
         .color1 {
-            background-color: rgb(117, 141, 201);
-            padding: 60px;
+            background-color: rgb(97, 138, 164);
+            padding: 80px;
 
         }
+
+        .color3 {
+            background-color: rgb(165, 145, 120);
+            padding: 80px;
+        } 
+
+
+     
+
+
+
+
 
 /*backpacks*/
 
@@ -361,16 +374,26 @@ justify-content: space-between;
     }
 
 
-    .results h3 {
+    .results h2 {
         font-size: 40px;
         font-weight: normal;
     }
 
-    .results h2 {
-        font-size: 40px;
-        font-weight: normal;
-        border-style: solid;
+   
+
+
+    .results a {
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        font-weight: 300;
         
+        }
+
+
+    .results a:hover {
+        text-decoration: underline;
+        font-weight: bolder;
     }
 
     .flex {
@@ -378,6 +401,7 @@ justify-content: space-between;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
 }
 .letters {
 
@@ -386,6 +410,21 @@ justify-content: space-between;
     gap: 20px;
 
 }
+
+
+
+/*/quiz results */
+
+.contain4 h1 {
+
+    font-size: 40px;
+    }
+
+    .contain4 p {
+        font-size: 30px;
+        }
+
+
 
 
 
