@@ -78,12 +78,12 @@ body {
                     text-decoration: underline;
                 }
                 
-                .hero{
+                .hero2{
                 background-color: rgba(206, 100, 164);
                 background-size: 100%;
                 padding-bottom: 40px;
             }
-                 .hero h1 {
+                 .hero2 h1 {
                         font-family: 'inter';
                         font-weight: bold;
                         text-align: center;
@@ -94,7 +94,7 @@ body {
                         margin: 0;
                         padding: 0;
                         }
-                        .hero2 p {
+                        .hero3 p {
                             font-family: 'inter';
                             font-weight: 300;
                             font-size: 50px;
@@ -155,8 +155,8 @@ body {
     z-index: 9999;
     left: 0;
     top: 0;
-    width: 600px;
-    height: 800px;
+    width: 100%;
+    height: 100%;
     overflow: auto;
     background-color: rgba(121, 123, 103);
   }
@@ -188,7 +188,7 @@ body {
   }
   
   .close {
-    color: #fff;
+    color: black;
     position: absolute;
     top: 20px;
     right: 30px;
@@ -199,7 +199,7 @@ body {
   }
   
   .close:hover {
-    color: #ccc;
+    color: #fffdfd;
   }
 
   hr.line {

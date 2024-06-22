@@ -10,9 +10,13 @@ body {
         display: block;
     }
 
+    hr.line {
+        border: 1px solid black;
+      }
+
     main,footer {
         max-width: 1200px;
-        margin: auto; 
+        margin: 0 auto; 
         padding: 20px;
     }
 
@@ -56,30 +60,37 @@ body {
 
         section.hero {
             background:rgba(239,114,21);
-            
+            padding-bottom: 80px;
         }
 
         section.hero p {
             margin: 0;
-            padding-top: 30px;
-            padding-bottom: 60px;
+            padding-top: 20px;
             padding-left: 20px;
             font-size: 60px;
             color: black;
             width: 60%;
         }
 
-
-
-        section {
-            margin-top: 60px;
+        section.title {
             margin-bottom: 20px;
+        }
+        section.section {
+            margin-top: 80px;
+            margin-bottom: 80px;
            }
 
 
+           
+
+.grid img {
+    object-fit: cover;
+            height: 300px;
+            width: 100%;
+}
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-columns: repeat(2 ,1fr);
             gap:20px
         }
 
@@ -98,7 +109,7 @@ body {
             
         }
 
-        .card-2 {
+       main div.card-2 {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap:20px;
@@ -147,6 +158,7 @@ body {
             font-weight: normal;
             font-size: 100px;
             text-align: center;
+
             }
             
             section.title2 a {
@@ -163,20 +175,314 @@ body {
         
         .color2 {
             background-color: rgb(254, 198, 116);
-            padding: 40px;
+            padding: 60px;
 
         } 
         .color1 {
             background-color: rgb(117, 141, 201);
-            padding: 40px;
+            padding: 60px;
 
         }
+
+/*backpacks*/
+
+.backpack {
+    margin-top: 60px;
+}
+
+.arrow a{
+    font-size: 60px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.arrow a:hover {
+    text-decoration: underline;
+}
+
+
+ .hero1 h1 {
+        font-family: 'inter';
+        font-weight: normal;
+        font-size: 80px;
+        color: black;
+        text-decoration: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+        .hero1 p {
+            font-family: 'inter';
+            font-weight: 300;
+            font-size: 50px;
+            color: black;
+            margin: 0;
+            padding: 0;
+            width: 60%;
+            }
+
+        .grid1 .item .text {
+            padding-left: 60px;
+        }
+            .grid1 .item {
+                display: flex;
+                margin-bottom: 20px;
+                margin-top: 20px;
+                
+                   }
+            
+        .grid1 .item img {
+         width: 300px;
+         height: 300px;
+        object-fit: cover;
+         }  
+            .backpack h2, .backpack p {
+                margin: 0;
+                padding: 0;
+                
+            }
+            .backpack h2 {
+                font-size: 40px;
+                font-weight: normal;
+                margin-bottom: 20px;
+            }
+            .backpack p {
+                font-size: 30px;
+                font-weight: 300; 
+                
+            }
+           
+            .backpack a {
+           text-decoration: none;
+           color: black;
+           font-size: 60px;
+           font-weight: 200;
+           
+           }
+ .plus {
+display: flex;
+justify-content: space-between;
+}
+
+.plus a {
+    position: relative;
+    
+       }
+
+
+
+
+/*tips*/
+
+
+           .grid2 .item .text {
+            padding-left: 60px;
+        }
+            .grid2 .item{
+                display: flex;
+                margin-bottom: 60px;
+                margin-top: 60px;
+                   }
+            
+        .grid2 .item img {
+            object-fit: cover;
+            width: 150px;
+            height: 150px;
+         }  
+
+/*winter*/
+
+         .grid3 .item{
+            display: flex;
+            margin-bottom: 80px;
+                
+               }
+        
+    .grid3 .item img {
+        object-fit: cover;
+        width: 200px;
+        height: 200px;
+     }  
+
+
+/*/food*/
+
+
+     .hero2{
+        background-color: rgba(206, 100, 164);
+        background-size: 100%;
+        padding-bottom: 40px;
+    }
+
+
+    .hero2 a {
+        padding-left: 20px;
+    }
+
+    .hero2 h1 {
+        font-family: 'inter';
+        font-weight: bold;
+        text-align: center;
+        font-size: 180px;
+        color: black;
+        text-decoration: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+
+
+/*/quiz*/
+.hero4{
+    background-color: rgba(117, 141, 201);
+    background-size: 100%;
+    padding-bottom: 40px;
+}
+
+
+.hero4 a {
+    padding-left: 20px;
+}
+
+
+.hero4 h1 {
+    font-family: 'inter';
+    font-weight: bold;
+    text-align: center;
+    font-size: 180px;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+
+    .results h3 {
+        font-size: 40px;
+        font-weight: normal;
+    }
+
+    .results h2 {
+        font-size: 40px;
+        font-weight: normal;
+        border-style: solid;
+        
+    }
+
+    .flex {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.letters {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+
+
+/*/quiz*/   /*/food*/
+
+        .contain3 p {
+            font-family: 'inter';
+            font-weight: 300;
+            font-size: 50px;
+            color: black;
+            margin-top: 40px;
+            padding: 0;
+            width: 60%;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+/* MODALE */
+.modal {
+    display: none;
+    justify-content: center;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(121, 123, 103);
+  }
+
+ 
+
+
+  .modal:target {
+    display: block;
+  }
+  
+  .modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+  }
+
+  .modal-text {
+    padding: 40px;
+    font-family: 'inter';
+  }
+
+  .modal-text h2 {
+    font-size: 40px;
+    
+  }
+  .modal-text p {
+    font-size: 30px;
+    
+  }
+  
+  .close {
+    color: black;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .close:hover {
+    color: #fffdfd;
+  }
+
 
         hr.line {
             border: 1px solid black;
           }
 
       
+
+
           footer nav ul {
             margin:0;
             padding: 0;

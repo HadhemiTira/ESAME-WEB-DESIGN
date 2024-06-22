@@ -27,9 +27,7 @@ body {
         header p {
             font-family: 'Bebas Neue';
             font-size: 40px;
-            margin-left: 30px;
-            margin-top: 0;
-            margin-bottom: 0;
+            margin: 0;
             }
     
         header ul {
@@ -42,8 +40,7 @@ body {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                margin-right:30px;
-                margin-left:30px;
+                margin: 0;
                 padding: 0;
                 gap: 20px;
                 
@@ -53,7 +50,8 @@ body {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    
+                    margin: 0;
+                padding: 0;
                 }
 
                 .backpack {
@@ -64,6 +62,11 @@ body {
                     color: white;
                     text-decoration: underline;
                 }
+
+
+
+/*backpacks*/
+
 
                 .arrow a{
                     font-size: 60px;
@@ -79,7 +82,7 @@ body {
                 }
                 
                 
-                 .hero h1 {
+                 .hero1 h1 {
                         font-family: 'inter';
                         font-weight: normal;
                         font-size: 80px;
@@ -89,7 +92,7 @@ body {
                         margin: 0;
                         padding: 0;
                         }
-                        .hero p {
+                        .hero1 p {
                             font-family: 'inter';
                             font-weight: 300;
                             font-size: 50px;
@@ -99,16 +102,16 @@ body {
                             width: 60%;
                             }
 
-                        .grid .item .text {
+                        .grid1 .item .text {
                             padding-left: 60px;
                         }
-                            .grid .item{
+                            .grid1 .item{
                                 display: flex;
                                 margin-bottom: 20px;
                                     
                                    }
                             
-                        .grid .item img {
+                        .grid1 .item img {
                          width: 300px;
                          height: 300px;
                         object-fit: cover;
@@ -153,8 +156,8 @@ body {
     z-index: 9999;
     top: 0;
     left: 0;
-    width: 600px;
-    height: 800px;
+    width: 100%;
+    height: 100%;
     overflow: auto;
     background-color: rgba(121, 123, 103);
   }
@@ -200,7 +203,7 @@ body {
   }
   
   .close:hover {
-    color: #ccc;
+    color: #fffdfd;
   }
 
   hr.line {
@@ -209,40 +212,42 @@ body {
   }
 
                 
-                footer {
-                    padding-top: 40px;
-                    }
-                    footer nav.social {
-                        display: flex;
-                        justify-content: space-between;
-                    }
+  footer nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    gap: 10px;
+    
+}
 
-                    footer nav ul {
-                        padding: 0;
-                    }
+footer a {
+    color: black;
+    text-decoration: none;
+}
 
-                    footer a {
-                        text-decoration: none;
-                        color: black;
-                        margin-right: 0;
-                        }
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
 
-                    footer nav ul {
-                        font-family: 'inter';
-                        color: black;
-                        font-size: 18px;
-                        text-decoration: none;
-                        list-style-type: none;
-                        display: flex;
-                        margin:0;
-                        padding: 0;
-                        gap: 20px;
-                             }
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
 
-                    footer p {
-                        font-family: 'Bebas Neue';
-                        font-size: 100px;
-                        margin: 0;
+footer nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 
-                    }
+footer p {
+    font-family: 'Bebas Neue';
+    font-size: 80px;
+    margin: 0;
+
+}
 
