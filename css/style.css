@@ -574,5 +574,17 @@ justify-content: space-between;
             header {
                 align-items: flex-start;
                     }
+                   
+
                     
+                    section.section {
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                       }
+
+                       .plus a {
+                        padding-right: 5px;
+                           }
+  
+
         }
